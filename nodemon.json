@@ -1,0 +1,8 @@
+{
+  "include": [
+    "src"
+  ],
+  "ext": "ts",
+  "exec_old": "ts-node src/index.ts",
+  "exec": "node --inspect=0.0.0.0:9229 -r ts-node/register src/index.ts"
+}

@@ -1,0 +1,26 @@
+{
+  "main": "src/index.ts",
+  "name": "nodejs-external-drive-mount-checker",
+  "scripts": {
+    "build": "node -r ts-node/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export AMBIENTE=DEV && nodemon"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.11",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "fastify": "^4.28.1",
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "tsyringe": "^4.8.0"
+  }
+}
